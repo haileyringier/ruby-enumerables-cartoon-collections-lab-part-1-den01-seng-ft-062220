@@ -11,6 +11,10 @@ def list_dwarves(array)
   # Print a numbered list of each element
   array.each_with_index do |name, number|
     number = number + 1
-    puts number.to_s + ". " + name 
+    putsI accept the following commands:
+- help : displays this help message
+- list : displays a list of songs you can play
+- play : lets you choose a song to play
+- exit : exits this program
   end
 end
